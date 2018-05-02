@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'idea'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.hazelcast:hazelcast:3.10'
+    compile 'com.hazelcast:hazelcast-client:3.10'
+    compile 'com.github.cliftonlabs:json-simple:3.0.2'
+
+    compile 'ch.qos.logback:logback-classic:1.2.3'
+}
